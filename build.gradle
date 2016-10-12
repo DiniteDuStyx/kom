@@ -1,0 +1,20 @@
+group 'com.github.divinitedustyx'
+version '1.0-SNAPSHOT'
+
+
+// w jakim jezyku piszemy
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+
+//moze byc jakies inne
+repositories {
+    mavenCentral()
+}
+
+
+//biblioteki, ktorych uzywamy
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
